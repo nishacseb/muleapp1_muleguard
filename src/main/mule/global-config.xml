@@ -18,7 +18,7 @@ http://www.mulesoft.org/schema/mule/apikit-soap http://www.mulesoft.org/schema/m
         <http:listener doc:name="Listener" config-ref="HTTP_Listener_config" path=""/>
 
         <!-- FAIL: Legacy Logger Attributes -->
-		<logger level="INFO" doc:name="Logger" message="Test" toApplicationCode="true" fromApplicationCode="false"/>
+		<logger level="INFO" doc:name="Logger" message="Test" ApplicationCode="true" ApplicationCode="false"/>
         
         <!-- FAIL: Legacy Encryption Token -->
         <set-variable value="jce-encrypt::somevalue" variableName="legacyEncrypt"/>
